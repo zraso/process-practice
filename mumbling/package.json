@@ -1,0 +1,14 @@
+{
+  "name": "mumbling",
+  "version": "1.0.0",
+  "description": "accum(\"abcd\") -> \"A-Bb-Ccc-Dddd\" accum(\"RqaEzty\") -> \"R-Qq-Aaa-Eeee-Zzzzz-Tttttt-Yyyyyyy\" accum(\"cwAt\") -> \"C-Ww-Aaa-Tttt\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^24.9.0"
+  }
+}
