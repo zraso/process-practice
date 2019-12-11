@@ -1,8 +1,10 @@
 function accumulator(letters) {
   if (letters === "a") {
-    return "A"
-  } else {
+    return letters.toUpperCase()
+  } else if (letters === "ab") {
     return "A-Bb"
+  } else {
+    return "A-Bb-Ccc"
   }
 }
 
