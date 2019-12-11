@@ -15,3 +15,7 @@ test('correct result with three letters', () => {
 test('correct result with 4 letters', () => {
   expect(accumulator("abcd")).toEqual("A-Bb-Ccc-Dddd")
 });
+
+test('correct result with 4 letters not in alphabetical order', () => {
+  expect(accumulator("cwAt")).toEqual("C-Ww-Aaa-Tttt")
+});
