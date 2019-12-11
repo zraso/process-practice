@@ -19,3 +19,7 @@ test('correct result with 4 letters', () => {
 test('correct result with 4 letters not in alphabetical order', () => {
   expect(accumulator("cwAt")).toEqual("C-Ww-Aaa-Tttt")
 });
+
+test('correct result with 4 letters not in alphabetical order', () => {
+  expect(accumulator("RqaEzty")).toEqual("R-Qq-Aaa-Eeee-Zzzzz-Tttttt-Yyyyyyy")
+});
