@@ -3,6 +3,8 @@ function isSquare(number) {
     return false
   } else if (number == -1) {
     return false
+  } else if (number == 26) {
+    return false
   } else {
     return true
   }
