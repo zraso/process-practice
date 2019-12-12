@@ -10,15 +10,15 @@ You always walk only a single block in a direction and you know it takes you one
 Note: you will always receive a valid array containing a random assortment of direction letters ('n', 's', 'e', or 'w' only). It will never give you an empty array (that's not a walk, that's standing still!).
 
 Acceptance Criteria
-app.tenminuteswalk(['w', 's', 'e', 'e', 'n', 'n', 'e', 's', 'w', 'w']) # => true ### back at starting point, 10 minute walk
+<!-- app.tenminuteswalk(['w', 's', 'e', 'e', 'n', 'n', 'e', 's', 'w', 'w']) # => true ### back at starting point, 10 minute walk -->
 
-app.tenminuteswalk(['w', 's', 'e', 'n', 'n', 'e', 's', 'w', 'w', 'w']) # => false ### not back at starting point, 10 minute walk
+<!-- app.tenminuteswalk(['w', 's', 'e', 'n', 'n', 'e', 's', 'w', 'w', 'w']) # => false ### not back at starting point, 10 minute walk -->
 
-app.tenminuteswalk(['w', 's', 'e', 's', 's', 'e', 's', 'w', 'n', 'n']) # => false ### not back at starting point, 10 minute walk
+<!-- app.tenminuteswalk(['w', 's', 'e', 's', 's', 'e', 's', 'w', 'n', 'n']) # => false ### not back at starting point, 10 minute walk -->
 
-app.tenminuteswalk(['w', 's']) # => false ### not back at starting point, less than ten minutes
+<!-- app.tenminuteswalk(['w', 's']) # => false ### not back at starting point, less than ten minutes -->
 
-app.tenminuteswalk(['w', 'w', 'e', 's']) # => false, ### not back at starting point, less than ten minutes
+<!-- app.tenminuteswalk(['w', 'w', 'e', 's']) # => false, ### not back at starting point, less than ten minutes -->
 
 app.tenminuteswalk(['w', 'e', 's', 'n']) # => false  ### back at starting point, less than ten minutes
 

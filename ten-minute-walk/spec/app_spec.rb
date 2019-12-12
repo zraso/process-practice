@@ -16,5 +16,17 @@ describe App do
     it 'returns true for a 10 minute walk, back at starting point' do
       expect(app.tenminuteswalk(['w', 's', 'e', 'e', 'n', 'n', 'e', 's', 'w', 'w'])).to eq true
     end
+
+    it 'returns false for a 10 minute walk, not back at starting point' do
+      expect(app.tenminuteswalk(['w', 's', 'e', 'n', 'n', 'e', 's', 'w', 'w', 'w'])).to eq false
+    end
+
+    it 'returns false for a 10 minute walk, not back at starting point' do
+      expect(app.tenminuteswalk(['w', 's', 'e', 's', 's', 'e', 's', 'w', 'n', 'n'])).to eq false
+    end
+
+    it 'returns false for a 4 minute walk, back at starting point' do
+      expect(app.tenminuteswalk(['w', 'e', 's', 'n'])).to eq false
+    end
   end
 end
