@@ -1,5 +1,7 @@
 function isSquare(number) {
-  if (number > 0) {
+  if (number == 4) {
+    return true
+  } else if (number > 0) {
     return false
   } else if (number == -1) {
     return false

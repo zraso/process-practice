@@ -13,6 +13,10 @@ test('3 returns false', () => {
   expect(isSquare(3)).toEqual(false)
 });
 
-test('4 returns true', () => {
+test('26 returns false', () => {
   expect(isSquare(26)).toEqual(false)
+});
+
+test('4 returns true', () => {
+  expect(isSquare(4)).toEqual(true)
 });
