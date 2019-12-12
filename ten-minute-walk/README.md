@@ -18,7 +18,7 @@ app.tenminuteswalk(['w', 's', 'e', 's', 's', 'e', 's', 'w', 'n', 'n']) # => fals
 
 app.tenminuteswalk(['w', 's']) # => false ### not back at starting point, less than ten minutes
 
-app.tenminuteswalk(['w', 'w', 'e', 'e']) # => false, ### not back at starting point, less than ten minutes
+app.tenminuteswalk(['w', 'w', 'e', 's']) # => false, ### not back at starting point, less than ten minutes
 
 app.tenminuteswalk(['w', 'e', 's', 'n']) # => false  ### back at starting point, less than ten minutes
 
