@@ -8,3 +8,7 @@ test('a negative number returns false', () => {
 test('a negative number returns false', () => {
   expect(isSquare(0)).toEqual(true)
 });
+
+test('a negative number returns false', () => {
+  expect(isSquare(3)).toEqual(false)
+});
