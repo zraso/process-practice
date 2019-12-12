@@ -20,6 +20,8 @@ Acceptance Criteria
 
 <!-- app.tenminuteswalk(['w', 'w', 'e', 's']) # => false, ### not back at starting point, less than ten minutes -->
 
-app.tenminuteswalk(['w', 'e', 's', 'n']) # => false  ### back at starting point, less than ten minutes
+<!-- app.tenminuteswalk(['w', 'e', 's', 'n']) # => false  ### back at starting point, less than ten minutes -->
 
-app.tenminuteswalk(['w', 's', 'e', 's', 's', 'e', 's', 'w', 'n', 'n', 's', 's']) # => false ### not back at starting point, more than ten minutes
+<!-- app.tenminuteswalk(['w', 's', 'e', 's', 's', 'e', 's', 'w', 'n', 'n', 's', 's']) # => false ### not back at starting point, more than ten minutes -->
+
+<!-- app.tenminuteswalk(['w', 'w', 'w', 'e', 'e', 'e', 's', 's', 's', 'n', 'n', 'n']) # => false ### back at starting point, more than ten minutes -->
